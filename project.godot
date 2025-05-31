@@ -1,0 +1,48 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Hathora Multiplayer Game"
+config/features=PackedStringArray("4.4")
+config/icon="res://icon.png"
+run/main_scene="res://scenes/LoginScene.tscn"
+
+[input]
+
+move_left={
+"deadzone": 0.5,
+"events": [{
+"scancode": 65
+}]
+}
+move_right={
+"deadzone": 0.5,
+"events": [{
+"scancode": 68
+}]
+}
+move_up={
+"deadzone": 0.5,
+"events": [{
+"scancode": 87
+}]
+}
+move_down={
+"deadzone": 0.5,
+"events": [{
+"scancode": 83
+}]
+}
+
+[network]
+
+hathora/app_id="YOUR_APP_ID"
+hathora/region="us-east"
