@@ -11,9 +11,17 @@ config_version=5
 [application]
 
 config/name="Hathora Multiplayer Game"
+run/main_scene="res://scenes/LoginScene.tscn"
 config/features=PackedStringArray("4.4")
 config/icon="res://icon.png"
-run/main_scene="res://scenes/LoginScene.tscn"
+
+[autoload]
+
+HathoraSDK="*res://addons/hathora/sdk/client.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/hathora/plugin/plugin.cfg", "res://addons/hathora/sdk/plugin.cfg")
 
 [input]
 
