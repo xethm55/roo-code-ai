@@ -1,8 +1,8 @@
 extends Control
 
-onready var room_list = $VBoxContainer/RoomList
-onready var game_type_option = $VBoxContainer/GameTypeOption
-onready var color_picker = $VBoxContainer/ColorPickerButton
+@onready var room_list = $VBoxContainer/RoomList
+@onready var game_type_option = $VBoxContainer/GameTypeOption
+@onready var color_picker = $VBoxContainer/ColorPickerButton
 
 func _ready():
 	NetworkManager.hathora_client.connect("rooms_updated", self, "_update_room_list")

@@ -1,7 +1,2 @@
-res://scenes/LoginScene.tscn
-res://game-architecture.md
-res://scripts/GameState.gd
-res://scripts/Lobby.gd
-res://scripts/Main.gd
-res://scripts/NetworkManager.gd
-res://scripts/Player.gd
+res://scenes/LobbyScene.tscn
+res://scripts/Login.gd
