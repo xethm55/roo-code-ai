@@ -1,5 +1,0 @@
-res://scenes/LobbyScene.tscn
-res://scripts/NetworkManager.gd
-res://scripts/Game.gd
-res://scenes/GameScene.tscn
-res://scenes/LoginScene.tscn
